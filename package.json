@@ -5,8 +5,7 @@
   "main": "valentines.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "$(npm bin)/gulp",
-    "postinstall": "$(npm bin)/bower install"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +26,11 @@
     "gulp-connect": "^2.3.1",
     "gulp-sass": "^2.2.0",
     "node-bourbon": "^4.2.3"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "font-awesome-svg-icons": "latest",
+    "path": "^0.12.7",
+    "pressure": "^0.0.4"
   }
 }
